@@ -1,4 +1,4 @@
-﻿#NoEnv
+#NoEnv
 SetWorkingDir %A_ScriptDir%
 CoordMode, Mouse, Window
 SendMode Input
@@ -27,8 +27,8 @@ While y != 0
         
         Send, ^v
         Send, {Space}
-        Sleep, %t%
     }
+    Sleep, %t%
     Send, {Enter}
     a += 1
     y -= 1
@@ -48,8 +48,8 @@ While x != 0
         
         Send, ^v
         Send, {Space}
-        Sleep, %t%
     }
+    Sleep, %t%
     Send, {Enter}
     x -= 1
 }
